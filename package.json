@@ -7,7 +7,7 @@
   "engines": {
     "vscode": "^1.22.0"
   },
-  "categories": ["Other"],
+  "categories": ["Other", "Snippets"],
   "activationEvents": ["onCommand:extension.sayHello"],
   "main": "./out/extension",
   "contributes": {
@@ -15,6 +15,16 @@
       {
         "command": "extension.sayHello",
         "title": "Hello World"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/index.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/index.json"
       }
     ]
   },
