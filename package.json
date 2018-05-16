@@ -1,8 +1,8 @@
 {
   "name": "auto-machine",
-  "displayName": "vs-ex-001",
+  "displayName": "auto-machine",
   "description": "autocompement",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "publisher": "zy",
   "engines": {
     "vscode": "^1.22.0"
